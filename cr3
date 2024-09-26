@@ -1,0 +1,16 @@
+std::thread cr3_refresh_thread([]() {
+		uintptr_t last_cr3 = mem::fetch_cr3();
+
+		while (true)
+		{
+			uintptr_t new_cr3 = mem::fetch_cr3();
+
+			if (new_cr3 != last_cr3)
+			{
+				last_cr3 = new_cr3;
+			}
+
+			std::this_thread::sleep_for(std::chrono::microseconds(50));
+		}
+	});
+	cr3_refresh_thread.detach();
