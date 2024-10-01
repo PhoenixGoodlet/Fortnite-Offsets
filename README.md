@@ -6,8 +6,6 @@ Offsets will always be updated every update ready for you guys to use!
 
 <p align="center"> <img src="https://komarev.com/ghpvc/?username=p-niggerfart&label=Repo%20views&color=0e75b6&style=flat" alt="Repo Views" /> </p>
 
-Latest Patch: ``v31.20``
-
 # Content
 
 [Latest Offsets](https://github.com/PhoenixGoodlet/Fortnite-Offsets/blob/main/Offsets)
