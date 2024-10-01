@@ -1,6 +1,6 @@
 namespace Offsets
 {
-	uintptr_t UWorld = 0x1215C178,
+	uintptr_t UWorld = 0x12300468,
         uintptr_t PersistentLevel = 0x30,
         uintptr_t OwningWorld = 0xc0,
   	uintptr_t HabaneroComponent = 0x9E8,
